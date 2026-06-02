@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest  # 최신 Ubuntu 환경에서 작업 실행
 
     steps:
-      - name: Checkout source
+      - name: Checkout source21
         uses: actions/checkout@v3  # GitHub 저장소의 소스코드를 가져오는 액션
 
       - name: Set up JDK 21
