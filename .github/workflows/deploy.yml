@@ -90,4 +90,4 @@ jobs:
           SLACK_ICON_EMOJI: ':x:' # Slack 메시지 앞에 표시될 아이콘 (실패용 이모지)
           SLACK_TITLE: '❌ 배포 실패' # Slack 메시지의 제목 (굵은 텍스트로 표시됨)
           SLACK_MESSAGE: 'Main 브랜치에 push됨 → EC2 배포 중 오류가 발생했습니다. 🔥 확인이 필요합니다.'  # Slack 메시지의 본문 내용  (상세 메시지)
-          SLACK_COLOR: danger # 메시지 바 색상 (green=good, red=danger, yellow=warning) 
+          SLACK_COLOR: danger # 메시지 바 색상 (green=good, red=danger, yellow=warning)
